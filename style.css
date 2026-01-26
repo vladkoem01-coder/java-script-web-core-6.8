@@ -24,10 +24,11 @@ h2{
     padding-left: 4%;
 }
 
-.page__img {
+.img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 
@@ -78,6 +79,9 @@ h2{
 .tablet {
     display: none;
 }
+.page__img__tablet{
+    display: none;
+}
 
 /* Tablet */
     @media (min-width: 768px) {
@@ -93,11 +97,38 @@ h2{
             display: flex;
         }
 
-        
+        .page__img{
+            display: flex;
+            gap: 20px;
+        }
+
+        .page__img__right{
+            display: flex;
+            gap: 20px;
+        }
   }
 
 /* Desktop */
-@media(min-width:784px)
+@media(min-width:1120px)
 {
+    body{
+        max-width: 1120;
+    }
+
+    .page__img{
+        display: none;
+    }
+    .page__img__right{
+        display: none;
+    }
+    
+    .upper-menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+    }
+
+
 
 }
