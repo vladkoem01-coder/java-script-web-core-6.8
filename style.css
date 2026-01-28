@@ -29,6 +29,9 @@ h2{
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
+  border-bottom: 1px solid #41F6D7;
+  padding: 15px;
+  background-color: white;
 }
 
 
@@ -37,8 +40,6 @@ h2{
     top: 88px;
     opacity: 1;
     width: 100%;
-    border: 1px solid #41F6D7;
-
 }
 
 .upper-menu {
@@ -71,9 +72,11 @@ h2{
     border: #FFFFFF;
     height: 40px;
     font-size: 16px;
-    letter-spacing: 3px;
-    padding: 10px 10px 5px 10px;
+    padding: 5px 20px 5px 20px;
+}
 
+.page__img__tablet{
+    display: none;
 }
 
 .text{
@@ -149,6 +152,7 @@ h2{
 
     .upper-menu__left{
         font-size: larger;
+        display: inline-flex;
     }
 
     .upper-menu__right{
