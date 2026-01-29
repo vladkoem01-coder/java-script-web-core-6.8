@@ -194,4 +194,9 @@ h2{
             display: flex;
             flex-wrap: wrap;
         }
-}
+
+        .header{
+            border-bottom: none;
+        }
+
+    }
